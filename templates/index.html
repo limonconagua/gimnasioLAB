@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="\static\style1.css">
+    <title>Gym LAB</title>
+</head>
+<body>
+    <header>
+        <div class="header1">
+            <a href="{{ url_for('futsal') }}" class="icon1">
+                <img src="{{ iconofutbal }}" alt="icono futsal" width="50" height="50">
+            </a>
+            <a href="{{ url_for('basquetball') }}" class="icon1">
+                <img src="{{ iconobaquet }}" alt="icono baquet" width="50" height="50">
+            </a>
+            <a href="{{ url_for('voli') }}" class="icon2">
+                <img src="{{ iconovoley }}" alt="icono voley" width="50" height="50">
+            </a>
+        </div>
+        <div class="container1_0">
+            <a href="{{ url_for('index') }}" class="butom" >
+                <img src="/static/logoLAB.png" alt="logo del liceo para volver al inicio" width="90" height="90">
+            </a>
+        </div>
+        <div class="container1_1">
+            <h3>Sobre nosotros</h3>
+            <a href="{{ url_for('about') }}" class="about">
+                <button class="butom2"></button>
+            </a>
+        </div>
+    </header>
+    <div class="main_container">
+        <div class="container2_0">
+            <h1>Ventas</h1>
+            <img src="" alt="imagen sobre la venta">
+            <p>
+                La venta se hará tal dia en tal sala
+            </p>
+        </div>
+        <div class="container3_0">
+            <h1>GIMNASIO LAB</h1>
+            <p>
+                En este liceo se juegan distintos deportes y se celebran distintos eventos.
+                Se juega Futsala, Voleyball, basquetball, ademas de que se celebran eventos como conciertos de los alumnos, celebraciones de fechas importantes y fiestas del liceo.
+            </p>
+        </div>
+        <div class="container2_1">
+            <h1>Anuncios de terceros</h1>
+            <img src="" alt="fotos del liceo">
+            <p>
+                Informaciones varias y ventas
+            </p>
+        </div>
+    </div>
+    <div class="container4_0">
+        <div class="min2">
+            <img src="" alt="anucio 1">
+        </div>
+        <div id="container4_1">
+            <div class="min1">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad quo numquam sint dignissimos tempora aliquid enim blanditiis. Reiciendis odit quidem distinctio hic officiis quia, labore iste possimus repudiandae, reprehenderit laboriosam?
+                </p>
+            </div>
+            <div class="min4">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto explicabo odio obcaecati eligendi quis tempore illo sequi at doloremque consequuntur aut quos excepturi laudantium, eveniet, reiciendis totam maxime, veniam corporis!
+                </p>
+            </div>
+        </div>
+        <div class="min3">
+            <img src="" alt="anuncio 2">
+        </div>
+    </div>
+    <div id="main_container2">
+        <h2>
+            Redes sociales del liceo
+        </h2>
+        <div class="social">
+            <a href="https://web.facebook.com/people/Liceo-Andr%C3%A9s-Bello/100064157257027/"><img src="{{ iconoface }}" alt="icono de facebook" width="100" height="100"></a>
+            <a href="https://liceoandresbellopm.cl/"><img src="{{ logoLAB }}" alt="logo del liceo" width="100" height="100"></a>
+        </div>
+    </div>
+</body>
+</html>

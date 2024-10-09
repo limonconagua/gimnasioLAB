@@ -1,0 +1,149 @@
+body {
+    font-family: sans-serif;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    background-color: rgb(55, 20, 209);
+    padding: 20px 20px 20px 20px;
+    justify-content: space-between;
+}
+
+.header1{
+    padding-top: 25px;
+}
+
+.icon1 {
+    padding-right: 20px;
+    padding-top: 25px;
+}
+
+.butom{
+    border-radius: 20%;
+    margin-right: 100px;
+}
+
+.butom2 {
+    background-color: red;
+    border-radius: 100%;
+    width: 70px;
+    height: 70px;
+}
+
+.main_container {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 25px 25px 25px;
+
+}
+
+.imagen-container {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 40px;
+    margin-right: 20px;
+}
+
+.container1_0 {
+    padding-top: 10px;
+}
+
+.container1_1 {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 5px;
+    padding-top: 20px;
+}
+
+.about {
+    padding-left: 20px;
+}
+
+.container2_0 {
+    color: white;
+    background-color: rgb(35, 7, 161);
+    border-color: black;
+    border-style: groove;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: auto;
+    padding: 20px 20px 20px 20px;
+    margin-top: 10px;
+
+}
+
+.container2_1 {
+    color: white;
+    background-color: rgb(35, 7, 161);
+    display: flex;
+    border-color: black;
+    border-style: groove;
+    border-radius: 40px;
+    flex-direction: column;
+    margin-bottom: auto;
+    padding: 20px 20px 20px 20px;
+    margin-top: 6px;
+}
+
+.container3_0 {
+    padding: 20px 20px 20px 20px;
+    margin: 0px 20px 0px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container4_0 {
+    display: flex;
+    justify-content: space-between;    
+}
+
+#container4_1 {
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+#main_container2 {
+    background-color: rgb(255, 14, 14);
+    padding: 50px 50px 50px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social {
+    display: flex;
+    justify-content: space-between;
+}
+
+.min1 {
+    color: white;
+    background-color: rgb(35, 7, 161);
+    border-style: groove;
+    border-color: black;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px 10px 10px;
+}
+
+.min4 {
+    background-color: rgb(35, 7, 161);
+    color: white;
+    border-style: groove;
+    border-color: black;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px 10px 10px;
+}
+
+#sans {
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+    font-size: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
